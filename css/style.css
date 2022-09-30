@@ -1,0 +1,316 @@
+
+/* ====================== Connect the Lato font from Google fonts ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ====================== CCS Properties Home Work=============================== */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto 100px;
+}
+.main-about h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  margin: 0 0 40px 0;
+}
+.main-curator-text p:not(:last-child),
+.main-about p:not(:last-child) {
+  margin: 0 0 24px 0;
+}
+.main-about {
+  margin: 0 0 48px 0;
+}
+.main-learn {
+  margin: 0 0 200px 0;
+}
+.main-learn h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #1e212c;
+  margin: 0 0 24px 0;
+}
+.main-learn ul,
+.main-info ul {
+  padding-left: 32px;
+}
+.main-learn li::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/vector.png) 0 0 no-repeat;
+  height: 16px;
+  width: 16px;
+  margin: 0 16px 0 -32px;
+}
+
+/* .main-learn ul {
+  padding-left: 32px;
+}
+.main-learn li::before {
+  content: "";
+  background: url(../img/vector.png) 0 2px no-repeat;
+  padding-left: 32px;
+  margin-left: -32px;
+} */
+
+.main-learn li:not(:last-child) {
+  margin: 0 0 4px 0;
+}
+.main-curator {
+  margin: 0 0 32px 0;
+}
+.main-curator h6 {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+  margin: 0 0 8px 0;
+}
+.main-curator h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  margin: 0 0 16px 0;
+}
+.main-curator p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #787a80;
+}
+.main-info {
+  margin: 0 0 32px 0;
+}
+.main-info li {
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0 0 4px 0;
+}
+.main-info li:last-child {
+  margin: 0;
+}
+.main-info li:first-child::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/star.png) 0 0 no-repeat;
+  height: 16px;
+  width: 16px;
+  margin: 0 16px 0 -32px;
+}
+.main-info li + li::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/play.png) 0 0 no-repeat;
+  height: 16px;
+  width: 16px;
+  margin: 0 16px 0 -32px;
+}
+.main-info li:last-of-type::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/profile.png) 0 0 no-repeat;
+  height: 16px;
+  width: 16px;
+  margin: 0 16px 0 -32px;
+}
+.home-work {
+  text-align: right;
+}
+.home-work h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  margin: 0 0 16px 0;
+}
+.home-work h2 :focus {
+  background-color: #c5a709;
+}
+.home-work h2::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/cappuccino.png) 0 0 no-repeat;
+  height: 37px;
+  width: 50px;
+  margin-left: 10px;
+}
+.home-work li:first-child {
+  font-size: 20px;
+}
+.home-work p:first-of-type {
+  color: blueviolet;
+  border: 1px solid #000;
+}
+.home-work li:last-child {
+  font-size: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 0) 2%,
+    rgba(70, 252, 177, 1) 82%
+  );
+}
+.home-work h4:last-of-type {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.home-work li:nth-child(2) {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 230, 63, 1) 0%,
+    rgba(178, 252, 70, 0) 100%
+  );
+}
+
+.footer h2 {
+  padding: 15px 0;
+  font-size: 40px;
+  color: #c5a709;
+  max-width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer h2 :visited {
+  color: blueviolet;
+}
+.footer h2 :active {
+  color: rgb(255, 0, 0);
+}
+
+/* ====================== CCS Properties Game=============================== */
+[class*="__container-game"] {
+  max-width: 810px;
+  margin: 0 auto 100px;
+}
+.main-game-title {
+  margin: 0 0 50px 0;
+}
+.main-game-title p {
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(
+    66deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(41, 141, 201, 1) 29%,
+    rgba(239, 32, 46, 1) 46%,
+    rgba(253, 29, 29, 1) 67%,
+    rgba(252, 176, 69, 1) 94%,
+    rgba(252, 117, 53, 1) 99%
+  );
+  padding: 25px;
+}
+.main__container-game {
+  border: 1px solid #000;
+  border-radius: 20px;
+  min-height: 500px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  padding: 25px;
+}
+.main-item a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 49%,
+    rgba(252, 70, 107, 1) 82%
+  );
+  /* background-color: rgb(10, 147, 245); */
+  color: #fff;
+}
+#item01 {
+  text-align: center;
+  padding: 10px;
+}
+#item01 a {
+  display: inline;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 25px;
+  background: linear-gradient(
+    66deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(41, 141, 201, 1) 29%,
+    rgba(239, 32, 46, 1) 46%,
+    rgba(253, 29, 29, 1) 67%,
+    rgba(252, 176, 69, 1) 94%,
+    rgba(252, 117, 53, 1) 99%
+  );
+}
+#item11 {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 25px;
+  background: linear-gradient(
+    66deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(41, 141, 201, 1) 29%,
+    rgba(239, 32, 46, 1) 46%,
+    rgba(253, 29, 29, 1) 67%,
+    rgba(252, 176, 69, 1) 94%,
+    rgba(252, 117, 53, 1) 99%
+  );
+  color: #fff;
+  text-align: center;
+}
+#item02:not(:target),
+#item03:not(:target),
+#item04:not(:target),
+#item05:not(:target),
+#item06:not(:target),
+#item07:not(:target),
+#item08:not(:target),
+#item09:not(:target),
+#item10:not(:target),
+#item11:not(:target) {
+  visibility: hidden;
+}
+#item02:target,
+#item03:target,
+#item04:target,
+#item05:target,
+#item06:target,
+#item07:target,
+#item08:target,
+#item09:target,
+#item10:target,
+#item11:target {
+  visibility: visible;
+}
+#item02:target {
+  margin: 0 0 0 500px;
+}
+#item03:target {
+  margin: 0 0 0 100px;
+}
+#item04:target {
+  margin: 0 0 0 650px;
+}
+#item05:target {
+  margin: 0 0 0 200px;
+}
+#item06:target {
+  margin: 0 0 0 250px;
+}
+#item07:target {
+  margin: 0 0 0 700px;
+}
+#item09:target {
+  margin: 0 0 0 650px;
+}
+#item10:target {
+  margin: 0 0 0 450px;
+}
